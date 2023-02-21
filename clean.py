@@ -20,3 +20,5 @@ if __name__ == '__main__':
 
     cleaned = clean(args.input_1, args.input_2)
     cleaned.to_csv(args.output, index=False)
+
+    print('Output file shape: {}'.format(cleaned.shape))
